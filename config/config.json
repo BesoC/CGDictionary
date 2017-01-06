@@ -1,0 +1,13 @@
+{
+  "port": 8080,
+  "database": "postgres://postgres:123@192.168.38.1:5432/Dictionary",
+  "session": {
+    "secret": "SecretKey",
+    "key": "sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
+  }
+}
